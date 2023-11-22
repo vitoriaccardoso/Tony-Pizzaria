@@ -1,0 +1,78 @@
+.container{
+    color: white;
+    margin-top: 20;
+
+
+}
+.container p{
+    margin-top: 1px;
+}
+span {
+    display: flex;
+    justify-content: end;
+    color: white;
+    margin-top: 10px;
+}
+footer a{
+    color: white;
+    font-size: 20px ;
+    align-items: center;
+    font-weight: 600;
+}
+.container-botao{
+    margin: 0;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+.senha{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.login input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+::placeholder{
+    color: white;
+}
+.senha input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+::placeholder{
+    color: white;
+}
