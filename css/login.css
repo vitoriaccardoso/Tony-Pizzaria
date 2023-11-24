@@ -1,17 +1,23 @@
 .container{
     color: white;
-    margin-top: 20;
-
 
 }
 .container p{
     margin-top: 1px;
+   
 }
 span {
     display: flex;
     justify-content: end;
     color: white;
-    margin-top: 10px;
+  
+
+}
+
+header{
+    gap: 16px;
+    margin: 1px;
+    
 }
 footer a{
     color: white;
@@ -21,11 +27,12 @@ footer a{
 }
 .container-botao{
     margin: 0;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 button{
     border: none;
+    margin: 16px;
 }
 
 footer{
@@ -47,6 +54,7 @@ footer{
     margin-top: 16px;
 }
 .login input{
+    
     display: flex;
     justify-content: center;
     align-items: center;
