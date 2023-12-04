@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/botao.css">
     <link rel="stylesheet" href="./css/criarConta.css">
-    <link rel="stylesheet" href="./css/reset.css">
-   
-    <title>cadatro</title>
+    <script src="main4.js" defer></script>
+    <title>Cadastro</title>
 </head>
 <body>
-    <header> 
-        <div class="criar">
-        
-        <a href="./login.html">Criar Conta</a>
+
+    <header>
+        <img src="./img/Vector (1).png" alt="">
+        <div class="navbar">
+            <h3>Criar conta</h3>
         </div>
-         </header>
+    </header>
 
-         <main>
-            <div class="caixa">
-                <label>Nome do usuário</label>
-                <input type="text">
-                <label>Endereço de e-mail</label>
-                <input type="text" required>
-                <label>Senha</label>
-                <input type="password" required>
-                <label>Confirmação de senha</label>
-                <input type="password"  required>
-                <label>Telefone</label>
-                <input type="text">
+    <div class="foto">
+        <label class="picture" tabindex="0">
+          
+        </label>
+        <img src="./img/Group 43.png" alt="">
+      
+    </div>
 
-                <button>
-                    <a href="./login.html">
-                    <a href="">Criar Conta</a>
-                    </a>
-                </button>
-            </div>
-         </main>
-
+    <main>
+        <div class="info">
+            <label>Nome de usuário</label>
+            <input type="text" id="nome">
+            <label>Endereço de e-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label>Senha</label>
+            <input type="password" name="senha" id="senha" required>
+            <label>Confirmação de senha</label>
+            <input type="password" name="confirmar" id="confirmar">
+            <label>Telefone</label>
+            <input type="number" name="telefone" id="telefone">
+        </div>
+        <div class="btn">
+        <button id="criar-conta"><a href="#">Criar conta</a></button>
+        </div>
+    </main>
 
     
 </body>
