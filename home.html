@@ -1,16 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/botao.css">
+    <link rel="stylesheet" href="./css/root.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
-    <title>home</title>
+    <title>Home</title>
 </head>
+
 <body>
-    
-    
+
+    <header>
+        <div class="container-infos">
+            <div class="bd">
+                <h3>Home</h3>
+                <span>Bom dia, Vitória</span>
+            </div>
+            <button>
+                <a href="">
+                    <img src="../img/fotoperfil.webp    " alt="">
+                </a>
+            </button>
+        </div>
+        <div class="input">
+            <input type="search" placeholder="Buscar algo para matar a minha fome">
+            <img src="../img/lupa.webp" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="categorias">
+            <h3>Categorias</h3>
+            <ul class="foods">
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Vector.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Kawaii Soda.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Watermelon.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Pizza.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Ice Cream Sundae.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/Kawaii Ice Cream.svg" alt="pizza logo tony">
+                    </button>
+                </li>
+               
+            </ul>
+        </section>
+
+        <section class="pizzas">
+            <h3>Minhas pizzas favoritas</h3>
+            <div class="pizzas-fav">
+                <button class="pizza" id="pizza1">
+                    <a href="">
+                        <span class="preco">R$ 16,00</span>
+                        <p class="nome">Pizza de calabreza com queijo</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza2">
+                    <a href="">
+                        <span class="preco">R$ 19,00</span>
+                        <p class="nome">Pizza de peperoni com queijo</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza3">
+                    <a href="">
+                        <span class="preco">R$ 16,00</span>
+                        <p class="nome">Pizza de calabreza com queijo</p>
+                    </a>
+                </button>    
+            </div>
+        </section>
+        <section class="recomendacao">
+            <h3>Recomendados para você</h3>
+            <div class="pizzas-recomend">
+                <button class="pizza" id="pizza4">
+                    <a href="./pizza-info.html">
+                        <p class="nome">Pizza de peperoni com queijo e tomate</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza5">
+                    <a href="">
+                        <span class="preco">R$ 12,00</span>
+                        <p class="nome">Pizza brotinho com queijo e tomate</p>
+                    </a>
+                </button> 
+            </div>
+        </section>
+        
+        <section class="drinks">
+            <h3>Bebidas</h3>
+            <div class="container-drinks">
+                <button class="bebida">
+                    <a href="">
+                        <div class="bebidas">
+                            <img src="../img/cocacola.svg" id="coca">
+                            <div class="bebidas-info">
+                                <span class="nome-bebidas">Coca-Cola</span>
+                                <ul class="desc-bebidas">
+                                    <li>Refrigerante Garrafa 3l</li>
+                                    <li>Embalagem Econômica</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="preco">R$ 14,99</span>
+                    </a>
+                </button>
+                <button class="bebida">
+                    <a href="">
+                        <div class="bebidas">
+                            <img src="../img/heineken.svg" id="coca">
+                            <div class="bebidas-info">
+                                <span class="nome-bebidas">Cerveja Heineken</span>
+                                <ul class="desc-bebidas">
+                                    <li>Refrigerante Garrafa 3l</li>
+                                    <li>Embalagem Econômica</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="preco">R$ 17,99</span>
+                    </a>
+                </button>
+        </section>
+    </main>
+
+    <footer>
+        <button class="profile">
+            <a href="">
+                <img src="../img/Vector (1).svg">
+                <span>Meu Perfil</span>
+            </a>
+        </button>
+        <button class="drinks">
+            <a href="">
+                <img src="../img/Beer Mug.svg" alt="">
+                <span>Bebidas</span>
+            </a>
+        </button>
+        <button class="desert">
+            <a href="">
+                <img src="../img/Kawaii Cupcake.svg" alt="">
+                <span>Sobremesas</span>
+            </a>
+        </button>
+    </footer>
 </body>
+
 </html>
