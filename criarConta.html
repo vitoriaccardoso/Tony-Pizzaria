@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/criarConta.css">
-    <script src="main4.js" defer></script>
+    <script src="../criarConta.js" defer></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -26,22 +26,30 @@
 
     <main>
         <div class="info">
-            <label>Nome de usuário</label>
+            <label id="labelNome">Nome de usuário</label>
             <input type="text" id="nome">
+
             <label>Endereço de e-mail</label>
             <input type="email" name="email" id="email" required>
-            <label>Senha</label>
+
+            <label id="labelSenha">Senha</label>
             <input type="password" name="senha" id="senha" required>
-            <label>Confirmação de senha</label>
+
+            <label id="labelConfirmacao">Confirmação de senha</label>
             <input type="password" name="confirmar" id="confirmar">
-            <label>Telefone</label>
+
+            <label id="labelTelefone">Telefone</label>
             <input type="number" name="telefone" id="telefone">
         </div>
+        
+            
         <div class="btn">
-        <button id="criar-conta"><a href="#">Criar conta</a></button>
+            <button><a href="./home.html">Criar conta</a></button>
+        </div>
+
         </div>
     </main>
 
-    
+
 </body>
 </html>
